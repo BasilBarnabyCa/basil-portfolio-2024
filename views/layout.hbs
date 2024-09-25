@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <div id="main" class="flex-grow relative">
+      <div class="w-full z-50 top-0 py-3 fixed flex justify-center bg-gradient">
+        <div class="container flex items-center justify-between">
+          <div>
+            <a href="/">
+              <img src="/img/logo.png" class="w-12" alt="logo" />
+            </a>
+          </div>
+          <ul class="flex items-center">
+            <li class="group pl-6">
+              <a
+                href="/"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+              >Home</a>
+              <span
+                class="block h-0.5 w-full bg-transparent group-hover:bg-yellow-400"
+              ></span>
+            </li>
+            <li class="group pl-6">
+              <a
+                href="/about"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+              >About</a>
+              <span
+                class="block h-0.5 w-full bg-transparent group-hover:bg-yellow-400"
+              ></span>
+            </li>
+            <li class="group pl-6">
+              <a
+                href="/projects"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+              >Projects</a>
+              <span
+                class="block h-0.5 w-full bg-transparent group-hover:bg-yellow-400"
+              ></span>
+            </li>
+            <li class="group pl-6">
+              <a
+                href="/contact"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+              >Contact</a>
+              <span
+                class="block h-0.5 w-full bg-transparent group-hover:bg-yellow-400"
+              ></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        {{{body}}}
+      </div>
+    </div>
+    <footer class="bg-slate-900 w-full mt-auto flex justify-center">
+      <div class="container flex flex-col justify-between py-6 sm:flex-row">
+        <p class="text-center font-body text-white md:text-left">
+          © Copyright 2024. All right reserved. <br/> <small>Built with Node.js.</small>
+        </p>
+        <div
+          class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0"
+        >
+          <a href="/contact" class="pl-4">
+            <i
+              class="bx bxs-envelope-open text-2xl text-white hover:text-yellow-400"
+            ></i>
+          </a>
+          <a href="https://www.linkedin.com/in/basilbarnaby/"  target="_blank" class="pl-4">
+            <i
+              class="bx bxl-linkedin text-2xl text-white hover:text-yellow-400"
+            ></i>
+          </a>
+          <a href="https://github.com/BasilBarnabyCa" target="_blank" class="pl-4">
+            <i
+              class="bx bxl-github text-2xl text-white hover:text-yellow-400"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>

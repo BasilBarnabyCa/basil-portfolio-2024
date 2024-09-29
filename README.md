@@ -39,23 +39,3 @@ You can view the demo [here](https://basil-assignment-01.onrender.com)
 
 
 ## Setup
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/BasilBarnabyCa/COMP2068JSFrameworks.git
-
-2. Navigate to the project directory:
-   ```bash
-   cd /path/to/repo/ASSIGNMENT01
-
-3. Install node packages
-   ```bash
-   npm install
-
-4. Run project
-   ```bash
-   npm start
-
-5. Visit [localhost:3000](http://localhost:3000/) to locally view demo content
